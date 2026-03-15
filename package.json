@@ -3,38 +3,23 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "start": "node ./dist/server/entry.mjs"
   },
   "dependencies": {
-    "@clayui/tooltip": "^3.58.0",
-    "@nextui-org/react": "^1.0.0-beta.9",
-    "@popperjs/core": "^2.11.5",
-    "@tippyjs/react": "^4.2.6",
-    "better-samp-query": "^0.1.5",
-    "dgram": "^1.0.1",
-    "ky": "^0.31.0",
-    "next": "12.1.6",
-    "next-themes": "^0.2.0",
-    "react": "18.2.0",
-    "react-cool-dimensions": "^2.0.7",
-    "react-copy-to-clipboard": "^5.1.0",
-    "react-dom": "18.2.0",
-    "react-icons": "^4.4.0",
-    "react-popper": "^2.3.0",
-    "sqr": "^1.0.1",
-    "swr": "^1.3.0",
-    "tailwind-scrollbar": "^1.3.1",
-    "tailwind-scrollbar-hide": "^1.1.7",
-    "tippy.js": "^6.3.7"
+    "@astrojs/node": "^9.3.0",
+    "@astrojs/tailwind": "^6.0.2",
+    "astro": "^5.4.2",
+    "tailwind-scrollbar": "^1.3.1"
   },
   "devDependencies": {
+    "@astrojs/check": "^0.9.7",
     "autoprefixer": "^10.4.7",
-    "eslint": "8.18.0",
-    "eslint-config-next": "12.1.6",
+    "oxlint": "^1.55.0",
     "postcss": "^8.4.14",
-    "tailwindcss": "^3.1.4"
+    "tailwindcss": "^3.1.4",
+    "typescript": "^5.9.3"
   }
 }

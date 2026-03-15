@@ -1,0 +1,19 @@
+---
+import '../styles/globals.css';
+
+const { title = 'Los Santos Street Wars' } = Astro.props;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="description" content="Los Santos Street Wars" />
+    <link rel="icon" type="image/png" href="/icons8-internet-doodle-32.png" />
+    <title>{title}</title>
+  </head>
+  <body class="cursor-default h-screen scrollbar-thin selection:bg-black selection:text-white">
+    <slot />
+  </body>
+</html>

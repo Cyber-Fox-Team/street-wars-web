@@ -1,7 +1,8 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./pages/**/*.{js,ts,jsx,tsx}",   
-  "./components/**/*.{js,ts,jsx,tsx}",  ],
+  content: [
+    "./src/**/*.{astro,html,js,jsx,ts,tsx,vue,svelte}",
+  ],
 
   theme: {
     extend: {
@@ -9,22 +10,14 @@ module.exports = {
       {
         brand:"#0fa9e6",
       },
-     
-      fontFamily:
-      {
-        'Grotesk': 'Grotesk-wide'
-      },
 
-      fontFamily:
-      {
-        'Archivo': 'Archivo Black'
+      fontFamily: {
+        Grotesk: 'Grotesk-wide',
+        Archivo: 'Archivo Black',
+        TimesNewRoman: 'TimesNewRoman',
       },
-      fontFamily:
-      {
-        'TimesNewRoman':'TimesNewRoman'
-      }
 
     },
   },
-  plugins: [ require('tailwind-scrollbar')],
+  plugins: [require('tailwind-scrollbar')],
 }
