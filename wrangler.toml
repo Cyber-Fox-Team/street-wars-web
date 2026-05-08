@@ -1,0 +1,2 @@
+name = "street-wars-web"
+compatibility_flags = ["nodejs_compat"]

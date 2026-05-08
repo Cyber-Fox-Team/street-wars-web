@@ -9,10 +9,12 @@
     "start": "node ./dist/server/entry.mjs"
   },
   "dependencies": {
+    "@astrojs/cloudflare": "^11.2.0",
     "@astrojs/node": "^9.3.0",
     "@astrojs/tailwind": "^6.0.2",
-    "astro": "^5.4.2",
-    "tailwind-scrollbar": "^1.3.1"
+    "astro": "^4.16.19",
+    "tailwind-scrollbar": "^1.3.1",
+    "wrangler": "^4.90.0"
   },
   "devDependencies": {
     "@astrojs/check": "^0.9.7",
