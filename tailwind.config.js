@@ -15,6 +15,8 @@ module.exports = {
         Grotesk: 'Grotesk-wide',
         Archivo: 'Archivo Black',
         TimesNewRoman: 'TimesNewRoman',
+        SpecialElite: ['"Special Elite"', 'cursive'],
+        PermanentMarker: ['"Permanent Marker"', 'cursive'],
       },
 
     },
